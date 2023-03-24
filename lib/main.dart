@@ -13,6 +13,7 @@ class TicTacToeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: TicTacToe(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
